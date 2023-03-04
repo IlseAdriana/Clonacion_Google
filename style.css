@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60%;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section li {
+    margin-right: 20px;
+}
+
+nav .nav-right-section .perfil-photo {
+    border-radius: 80px;
+    width: 35px;
+    height: 35px;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('images/circled-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+nav .nav-right-section a:hover {
+    text-decoration: underline;
+}
+
+nav .nav-right-section .perfil-photo:hover {
+    box-shadow: 0 0 5px 5px #dfe1e5;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 30px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+main .main-input-container {
+    width: 525px;
+    height: 45px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    border: none;
+    outline: none;
+    margin: 0 15px;
+    font-size: 16px;
+    color: #434649;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+main .main-input .search-icon {
+    background-image: url('images/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('images/microfone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+main .main-input .camera-icon {
+    background-image: url('images/camera.png');
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #f8f9fa;
+    color: #5f6368;
+    border: 0;
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 0 15px;
+    margin-right: 20px
+}
+
+main .main-buttons button:hover {
+    cursor: pointer;
+    color: #434649;
+    border: 0.1px solid #20212447;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a {
+    margin: 15px;
+    color: #5f6368
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
